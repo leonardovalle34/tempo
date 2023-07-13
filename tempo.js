@@ -1,5 +1,5 @@
 const api={
-    key: "8c2fe53c38eba95c5e6979dffae0bade",
+    key: "573bb4f08057dd946462dd548e3f8747",
     base: "https://api.openweathermap.org/data/2.5/",
     lang: "pt-br",
     units: "metric"
@@ -66,7 +66,7 @@ function displayResults(weather) {
 
 function dateBuilder(d) {
     let days = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
-    let months = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julio", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+    let months = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
 
     let day = days[d.getDay()]; //getDay: 0-6
     let date = d.getDate();
